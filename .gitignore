@@ -1,0 +1,20 @@
+# Generated wallpapers
+wallpapers/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+temp_*.html
