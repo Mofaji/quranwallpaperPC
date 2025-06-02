@@ -6,7 +6,6 @@ REM Check if Python is installed
 python --version >nul 2>&1
 if errorlevel 1 (
     echo [ERROR] Python is not installed! Please install Python 3.7 or higher.
-    pause
     exit /b 1
 )
 
@@ -26,8 +25,7 @@ python wallpaper-singlemonitor.py
 
 if errorlevel 1 (
     echo [ERROR] The script encountered an error!
-    pause
     exit /b 1
 )
 
-pause
+REM No pause, auto close
